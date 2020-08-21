@@ -3,4 +3,4 @@ from .models import Project
 # Create your views here.
 def homepage(request):
     projects = Project.objects.all() # this grabs all the project objects
-    return render(request,'porfolio/projects.html',{'projects': projects})
+    return render(request,'portfolio/home.html',{'projects': projects})

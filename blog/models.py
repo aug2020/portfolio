@@ -6,4 +6,4 @@ class Blog(models.Model):
     date = models.DateField()
 
     def __str__(self):
-        return self.title
+        return self.title #this returns the title of the model in the admins page

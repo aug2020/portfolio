@@ -8,7 +8,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('porfolio', '0003_delete_project'),
+        ('portfolio', '0003_delete_project'),
     ]
 
     operations = [

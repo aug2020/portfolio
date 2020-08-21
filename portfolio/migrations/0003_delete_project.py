@@ -6,7 +6,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('porfolio', '0002_remove_project_image'),
+        ('portfolio', '0002_remove_project_image'),
     ]
 
     operations = [
